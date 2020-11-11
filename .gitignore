@@ -1,0 +1,7 @@
+tactile-coding
+*.pdf
+cs4262_proposal
+*.zip
+*.pages
+.DS_Store
+.ipynb_checkpoints
