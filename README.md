@@ -8,4 +8,12 @@ The original [dataset](https://zenodo.org/record/2949959#.X6tuDC9h3RY) and artic
 - Data wrangling and visualization
 - Waveform to cell type classification using KNN
 
+### Other references: 
+
+Cunningham, J., Yu, B. Dimensionality reduction for large-scale neural recordings. Nat Neurosci 17, 1500–1509 (2014). https://doi.org/10.1038/nn.3776
+
+Paninski L, Cunningham JP. Neural data science: accelerating the experiment-analysis- theory cycle in large-scale neuroscience. Curr Opin Neurobiol. 2018 Jun;50:232-241. doi: 10.1016/j.conb.2018.04.007. PMID: 29738986.
+
+https://jmausolf.github.io/code/pca_in_python/
+
 More to come soon!
