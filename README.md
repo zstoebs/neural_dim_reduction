@@ -14,6 +14,8 @@ Cunningham, J., Yu, B. Dimensionality reduction for large-scale neural recording
 
 Paninski L, Cunningham JP. Neural data science: accelerating the experiment-analysis- theory cycle in large-scale neuroscience. Curr Opin Neurobiol. 2018 Jun;50:232-241. doi: 10.1016/j.conb.2018.04.007. PMID: 29738986.
 
-https://jmausolf.github.io/code/pca_in_python/
+Scree and cumulative explained variance plots: https://jmausolf.github.io/code/pca_in_python/
+
+Matplotlib 3D scatter plot: https://stackabuse.com/seaborn-scatter-plot-tutorial-and-examples/
 
 More to come soon!
