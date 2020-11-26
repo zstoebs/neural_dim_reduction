@@ -14,6 +14,10 @@ Cunningham, J., Yu, B. Dimensionality reduction for large-scale neural recording
 
 Paninski L, Cunningham JP. Neural data science: accelerating the experiment-analysis- theory cycle in large-scale neuroscience. Curr Opin Neurobiol. 2018 Jun;50:232-241. doi: 10.1016/j.conb.2018.04.007. PMID: 29738986.
 
+Wu, Tong et al. “Deep Compressive Autoencoder for Action Potential Compression in Large-Scale Neural Recording.” Journal of Neural Engineering 15.6 (2018): n. pag. Journal of Neural Engineering. Web.
+
+Ladjal, Saïd, Alasdair Newson, and Chi Hieu Pham. “A PCA-like Autoencoder.” arXiv 2 Apr. 2019: n. pag. Print.
+
 [Scree and cumulative explained variance plots ](https://jmausolf.github.io/code/pca_in_python/)
 
 [Matplotlib 3D scatter plot](https://stackabuse.com/seaborn-scatter-plot-tutorial-and-examples/)
