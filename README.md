@@ -28,5 +28,3 @@ Hyperparameter grid search for Keras:
 - https://machinelearningmastery.com/grid-search-hyperparameters-deep-learning-models-python-keras/
 - https://stackoverflow.com/questions/49823192/autoencoder-gridsearch-hyperparameter-tuning-keras
 - https://towardsdatascience.com/autoencoders-for-the-compression-of-stock-market-data-28e8c1a2da3e
-
-More to come soon!

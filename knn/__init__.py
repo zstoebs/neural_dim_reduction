@@ -142,8 +142,8 @@ def test_knn(X,y,labels,seed,stratify=False,n_splits=10,leeway=5):
     t2 = time.time()
     
     print("Chosen k: ", K)
-    print("Final accuracy: ",test_perf)
-    print("Misclassified indices: ", incorrect)
+    print("Test accuracy: ",test_perf)
+    print("Misclassified indices in the form (index, prediction, truth): ", incorrect)
     print("Debug accuracy: ", debug_perf)
     print("Misclassified indices in the form (index, prediction, truth): ", debug_incorrect)
     print("Time taken: ", t2-t1)

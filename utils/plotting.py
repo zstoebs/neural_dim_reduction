@@ -17,7 +17,7 @@ def meta(title,xlab,ylab,ymin=-4,ymax=3,stride=1):
     plt.xlim([-.5, .9])
     plt.title(title)
 
-def plot_by_cell_types(X,G,features,title,savename):
+def plot_by_cell_types(X,G,features,title,savename="waveform_by_cell_type"):
 
     # creating a long-form dataframe for seaborn plotting
     points = []
@@ -35,7 +35,7 @@ def plot_by_cell_types(X,G,features,title,savename):
     fig.savefig('imgs/' + savename + '.png')
 
 # modified 3D plotting code from: https://stackabuse.com/seaborn-scatter-plot-tutorial-and-examples/
-def plot_3d(dim_red_data,labels,title,savename):
+def plot_3d(dim_red_data,labels,title,savename="dim_red_data"):
     
     fig = plt.figure()
     ax = fig.add_subplot(111, projection = '3d')
@@ -60,7 +60,7 @@ def plot_3d(dim_red_data,labels,title,savename):
     plt.show()
 
 # modified functions from: https://jmausolf.github.io/code/pca_in_python/
-def scree_plot(exp_var):
+def scree_plot(exp_var,savename="scree_plot"):
 
     plt.plot(range(1,len(exp_var)+1),exp_var)
     plt.xlabel('Component')
@@ -68,10 +68,10 @@ def scree_plot(exp_var):
     plt.title('Scree Plot of PCA')
     fig = plt.gcf()
     fig.set_size_inches(5, 5)
-    fig.savefig("imgs/scree_plot.png")
+    fig.savefig('imgs/' + savename + '.png')
     plt.show()
 
-def var_explained(exp_var_ratio):
+def var_explained(exp_var_ratio,savename="cumulative_exp_var"):
 
     plt.plot(range(1,len(exp_var_ratio)+1),np.cumsum(exp_var_ratio))
     plt.xlabel('Number of Components')
@@ -79,5 +79,5 @@ def var_explained(exp_var_ratio):
     plt.title('Cumulative Explained Variance')
     fig = plt.gcf()
     fig.set_size_inches(5, 5)
-    fig.savefig("imgs/cumulative_exp_var.png")
+    fig.savefig('imgs/' + savename + '.png')
     plt.show()
